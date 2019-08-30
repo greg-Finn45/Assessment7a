@@ -31,7 +31,7 @@ public class ApiService {
 	}
 
 	
-	//Accesses the DonutsResponse class, accesses the web link to get a list of donuts, 
+		//Accesses the Response class, accesses the web link to get a list of animals, 
 		//and uses the REST API. 
 		public AnimalsResponse getAnimals() {
 
@@ -42,8 +42,8 @@ public class ApiService {
 		
 
 
-		//Accesses the Details class, accesses the web link with the concatenation ("+id+")
-		//to add a link to the donut choice, and uses the REST API. 
+		//Accesses a class, accesses the web link with the concatenation ("+id+")
+		//to add a link to the animal choice, and uses the REST API. 
 		public Species getByName(name) {
 			
 			String url = "https://gc-zoo.surge.sh/api/species/"+{name}+".json";
